@@ -12,7 +12,7 @@ function MyApp ({Component,pageProps}: AppProps): JSX.Element {
               {/* picked fonts:Noto Sans Light300, Regular400, Medium500, Bold700 */}
       <link rel='preconnect' href="https://fonts.googleapis.com"/>
               {/* <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/> */}
-      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+      {/* <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap" rel="stylesheet"/> */}
     </Head>
     <Component {...pageProps}/>
   </>;
