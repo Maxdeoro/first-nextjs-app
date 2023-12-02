@@ -34,12 +34,8 @@
 .arrow {
     display: inline-block;
     margin-left: 10px;
-    /* vertical-align: middle; */
     position: relative; 
     top: 30%;
-    
-    /* display: inline-flex; */
-    /* text-align: center; */
 }
 
 .down {
