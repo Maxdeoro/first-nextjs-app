@@ -5,6 +5,10 @@ import { Htag,Button,Par,Tag } from '../components';
 
 export default function Home(): JSX.Element {
   const [counter, setCounter] = useState<number>(0);
+
+  useEffect(() => {
+    console.log(`Counter: ` + counter);
+  }, [counter]);
   
   return (
     <>
