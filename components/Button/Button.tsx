@@ -8,7 +8,9 @@ export const Button = ({children,appearance,arrow='none',className, ...props}: B
         <button className={cn(styles.button, className, {
             [styles.primary]: appearance == 'primary',
             [styles.ghost]: appearance == 'ghost'
-        })}>
+        })}
+        {...props}
+        >
             {children}
             {arrow != 'none' && <span className={cn(styles.arrow, {
                 [styles.down]: arrow == 'down',
