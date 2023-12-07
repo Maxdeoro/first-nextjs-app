@@ -2,6 +2,7 @@ import React,{ useState,useEffect }  from 'react';
 // import Head from 'next/head';
 // import Image from 'next/image';
 import { Htag,Button,Par,Tag } from '../components';
+// import { Htag,Button,Par,Tag,Rating } from '../components';
 
 export default function Home(): JSX.Element {
   const [counter, setCounter] = useState<number>(0);
@@ -25,6 +26,7 @@ export default function Home(): JSX.Element {
       <Tag size='large' color='red' href='https://www.torproject.org/'>Tor Project</Tag>
       <Tag size='large' color='grey'>Esse</Tag>
       <Tag size='small' color='primary'>velit sed ullamcorper morbi</Tag>
+      {/* <Rating rating={3}/> */}
     </>
   );
 }
