@@ -13,7 +13,8 @@ function Home(): JSX.Element {
   return (
     <> 
     {/* <Layout> */}
-      <Htag tag='h1'>{counter}</Htag>
+      <Htag tag='h1'>Header h1</Htag>
+      {/* <Htag tag='h1'>{counter}</Htag> */}
       <Htag tag='h2'>Header h2</Htag>
       <Htag tag='h3'>Header h3</Htag>
       <Button appearance='primary' onClick={() => setCounter(counter + 1)}>Click me</Button>
