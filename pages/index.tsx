@@ -7,13 +7,7 @@ import axios from 'axios';
 import { MenuItem,PageItem } from '../interfaces/menu.interface';
 
 function Home({menu}: HomeProps): JSX.Element {
-// function Home({menu}: HomeProps): React.FC<Props> {
-  // const [counter, setCounter] = useState<number>(0);
 
-  // useEffect(() => {
-  //   console.log(`Counter: ` + counter);
-  // }, [counter]);
-  
   return (
     <> 
     {/* <Layout> */}
